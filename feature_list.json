@@ -1,0 +1,35 @@
+{
+  "project": "chat-app-next-feature",
+  "features": [
+    {
+      "id": "F001",
+      "name": "Project scaffold",
+      "status": "done",
+      "verification": "init.sh passes"
+    },
+    {
+      "id": "F002",
+      "name": "App shell with routing",
+      "status": "done",
+      "verification": "npm run dev starts without errors, all routes accessible"
+    },
+    {
+      "id": "F003",
+      "name": "User authentication",
+      "status": "done",
+      "verification": "Login, register, logout flows with Firebase Auth; ProtectedRoute guards chat"
+    },
+    {
+      "id": "F004",
+      "name": "Real-time chat",
+      "status": "done",
+      "verification": "Firestore real-time listener; MessageList, MessageInput, MessageItem components; useMessages hook"
+    },
+    {
+      "id": "FDEPLOY",
+      "name": "Deploy to Vercel",
+      "status": "pending",
+      "verification": "vercel --prod returns a live https:// URL"
+    }
+  ]
+}
